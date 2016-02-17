@@ -35,6 +35,7 @@ public class UploadActivity extends AppCompatActivity {
     private Uri fileURI;
     //private URI fileURI;
     final String url = "http://192.168.16.67:8000/";
+    //assuming a REAL domain name for actual server, though.
 
     EditText param1Edit;
     EditText param2Edit;

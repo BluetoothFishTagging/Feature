@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'completion',
+1 verbose cli   '--',
+1 verbose cli   'npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'mult' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose config Skipping project config: /home/jamiecho/.npmrc. (matches userconfig)
+5 verbose registry.get https://registry.npmjs.org/-/short not expired, no request
+6 error TypeError: Object #<Object> has no method 'filter'
+6 error     at /usr/share/npm/lib/install.js:43:17
+6 error     at RegClient.get_ (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:130:14)
+6 error     at RegClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:49:12)
+6 error     at evalmachine.<anonymous>:268:14
+6 error     at /usr/lib/nodejs/graceful-fs/graceful-fs.js:102:5
+6 error     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+7 error If you need help, you may report this *entire* log,
+7 error including the npm and node versions, at:
+7 error     <http://github.com/npm/npm/issues>
+8 error System Linux 4.2.0-27-generic
+9 error command "/usr/bin/nodejs" "/usr/bin/npm" "completion" "--" "npm" "install" "--save" "mult"
+10 error cwd /home/jamiecho/Projects/FishTags
+11 error node -v v0.10.25
+12 error npm -v 1.4.21
+13 error type undefined_method
+14 verbose exit [ 1, true ]
