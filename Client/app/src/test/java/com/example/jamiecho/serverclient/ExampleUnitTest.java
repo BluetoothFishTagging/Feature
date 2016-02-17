@@ -1,4 +1,4 @@
-package com.example.jamiecho.serverclient;
+package com.example.jamiecho.client;
 
 import org.junit.Test;
 
