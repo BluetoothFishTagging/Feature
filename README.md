@@ -3,5 +3,6 @@
 Features:
 
 - Detect File Transfer
-- GPS Data
+- Get GPS Data
 - Server-Client Communication
+- Wifi Detection
