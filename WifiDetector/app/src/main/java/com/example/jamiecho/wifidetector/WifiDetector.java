@@ -9,7 +9,7 @@ import android.os.Handler;
 import android.widget.Toast;
 
 public class WifiDetector extends BroadcastReceiver {
-    public WifiDetector() {
+    public WifiDetector(    ) {
     }
 
     @Override
