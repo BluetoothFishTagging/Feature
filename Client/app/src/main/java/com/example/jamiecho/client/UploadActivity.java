@@ -25,6 +25,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class UploadActivity extends AppCompatActivity {
+
     String param1;
     String param2;
     private Uri fileURI;

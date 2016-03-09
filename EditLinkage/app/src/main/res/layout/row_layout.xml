@@ -20,16 +20,19 @@
         android:layout_height="50dp"
         android:src="@drawable/placeholder"
         android:contentDescription="photo"/>
-
     <TextView
-        android:id="@+id/descriptionText"
+        android:id="@+id/tag"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-    <Button
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:maxLength="32"
+        />
+    <EditText
+        android:id="@+id/summary"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Edit"
-        android:id="@+id/editLinkageBtn" />
+        android:layout_height="match_parent"
+        android:maxLength="16"
+        android:focusable="false"
+        />
 </LinearLayout>
